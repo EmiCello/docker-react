@@ -8,4 +8,5 @@ before_install:
 
 script:
   - docker run -e CI=true emiliatraczyk/docker-react npm run test
+  
 
